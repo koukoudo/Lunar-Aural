@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lunar Aural</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/queries.css">
+    </head>
+    <body>
+        <div id="page-container">
+            <header>
+                <nav id="nav-main" class="expand">
+                    <img src="images/logo.jpg" alt="Lunar Aural Resort logo with moon icon and slogan saying out of this world">
+                    <i id="icon-menu" class="material-icons">menu</i>  
+                    <ul id="nav-options" class="expand">
+                        <li>
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#activities">Activities</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#rooms">Accomodation</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#faq">FAQs</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main id="page-content">
+                <section id="home" class="page-section" hidden>
+                    <div id="home-header" class="page-header">
+                        <div id="home-header-back">
+                            <img src="images/lunar-aural.jpg" alt="Lunar Aural resort on the moon">
+                        </div>
+                        <img id="home-header-image" src="images/earth-moon.png" alt="Graphic showing half the earth and half the moon with Lunar Aural written in front">
+                        <img id="home-header-callout" src="images/callout.png" alt="Callout box saying it really is out of this world">
+                        <div id="scroll-scene" hidden>
+                            <p>explore the interactive resort view</p>
+                            <i id="scroll-home" class="material-icons">arrow_downward</i>
+                        </div>
+                    </div>
+                    <div id="scene" hidden>
+                        <div id="scene-overlay" class="overlay"><i class="material-icons">hourglass_empty</i></div>
+                        <img src="images/controls.jpg" alt="Controls for scene movement">
+                    </div>
+                </section>
+
+                <section id="activities" class="page-section" hidden>
+                    <div id="activity-header" class="page-header">
+                        <h1 class="curve">Dazzle your senses with our selection of entertainment options</h1>
+                        <i id="icon-scroll-1" class="material-icons icon-scroll">expand_more</i>
+                    </div>
+                    <div class="parallax" style="background-image: url('images/parallax-moon-phases-1.jpg'); background-size: cover;"></div>
+                    <div id="activity-train" class="activity" data-scroll-class="show-activity">
+                        <h2>Intergalactic Journey on the Spirit Train</h2>
+                        <p>The trip from planet Earth to the Moon is not for the faint-of-heart. 
+                            You will be transported through space with your fellow earthlings on our one-of-a-kind 'Spirit Train'.
+                            Fitted with a mind-numbing sound system manufactured by our friends on Jupiter's fifth moon, trust us when we say the train ride will get you going.
+                            After 6 hours of floating through space, you will touch down on our planet's only celestial body. 
+                        </p>
+                        <i id="icon-scroll-2" class="material-icons icon-scroll">expand_more</i>
+                    </div>
+                    <div class="parallax" style="background-image: url('images/parallax-moon-phases-2.jpg')"></div>
+                    <div id="activity-med" class="activity" data-scroll-class="show-activity">
+                        <h2>Cosmic Meditation Sessions</h2>
+                        <p>Quiet your mind and experience the true oneness of the universe in the resort's iconic central dome.
+                            Our teachers will guide you through an hour-long tranquil meditation session to cleanse out all the earthly stressors that inhibit us.
+                            You are bound to feel relaxed, reacharged, revitalized, and ready to rave the night away.
+                            If that isn't enough rs in one sentence you need some rum.
+                        </p>
+                        <i id="icon-scroll-3" class="material-icons icon-scroll">expand_more</i>
+                    </div>  
+                    <div class="parallax" style="background-image: url('images/parallax-moon-phases-3.jpg')"></div>
+                    <div id="activity-dance" class="activity" data-scroll-class="show-activity">
+                        <h2>Lunar Jams</h2>
+                        <p>If you haven't heard of our universe-famous parties, commonly referred to as 'Lunar Jams', you've been living on a rock.
+                            Headlined by some of the Milky Way's most sought-after DJ's, your ears are in for a true treat. 
+                            Dance the night away under a sky full of stars until your body feels limp and then sleep it off to prepare for the next one.
+                            Life on Lunar Aural is vibrant and electric so bring your best energy.
+                        </p>
+                    </div>
+                </section>
+
+                <section id="rooms" class="page-section" hidden>
+                    <div id="room-header" class="page-header">
+                        <h1>Sleep under the stars in one of our transparent lunar bungalows</h1>
+                        <p>Explore the options by clicking below</p>
+                    </div>
+                    <div id="room-single" class="room">
+                        <h2>Singles Room</h2>
+                        <img src="images/room-double.png" alt="Glass dome with single bed">
+                    </div>
+                    <div id="room-double" class="room">
+                        <h2>Couples Room</h2>
+                        <img src="images/room-single.png" alt="Glass dome with dpuble bed">
+                    </div>
+                </section>
+
+                <section id="faq" class="page-section" hidden>
+                    <h1>Frequently Asked Questions</h1>
+                    <ul id="list-faq">
+                        <li>
+                            <p class="question">Are the meditation sessions and 'Lunar Jams' included in the cost? <i class="material-icons icon-faq">expand_more</i></p>
+                            <p class="answer">Yes. All activities at the resort are included in the cost of a room.</p>
+                        </li>
+                        <li>
+                            <p class="question">Does the resort provide any vegan/vegetarian food options? <i class="material-icons icon-faq">expand_more</i></p>          
+                            <p class="answer">Yes. It's 2020, duh. Our wonderful team of chefs will cater to any dietary needs. Just make sure to state your any restrictions on your booking.</p>
+                        </li>
+                        <li>
+                            <p class="question">Are the medical facilities at the resort in case something happens? <i class="material-icons icon-faq">expand_more</i></p>                          
+                            <p class="answer">Yes. Due to the sometimes wild nature of the Lunar Jams, as well as other unexpected accidents, we have a professional medical team on site 24/7. In addition, the resort will cover any medical costs for guests.</p>
+                        </li>
+                        <li>
+                            <p class="question">What is the temperature on the moon? What kind of clothing should I bring? <i class="material-icons icon-faq">expand_more</i></p>                           
+                            <p class="answer">Due to the lack of oxygen on the moon, all guests will be provided with comfortable, custom-made space suits to be worn for the duration of the trip.</p>
+                        </li>
+                        <li>
+                            <p class="question">Are there aliens on the moon? <i class="material-icons icon-faq">expand_more</i></p>                          
+                            <p class="answer">Many guests have reported alien sightings late in the evenings. These sightings usually occur after the Lunar Jams, leading us to believe there might be other forces at play.</p>
+                        </li>
+                    </ul>
+                </section>
+            
+                <section id="contact" class="page-section" hidden>
+                        <h1>Contact Us</h1>
+                    <div id="contact-details" class="contact-block">
+                        <h3>Getting in touch is easy</h3>
+                        <ul>
+                            <li>
+                                <p><b>Lunar Aural home base</b></p>
+                                <p>Crater #2703</p>
+                                <p>The Moon</p>
+                                <p>The Milky Way Galaxy</p>
+                                <p>Our Universe</p>
+                                <p>3° 12' 43.2" S, 5° 12' 39.6" W</p>
+                            </li>
+                            <li>
+                                <a>info@lunaraural.co.moon</a>
+                            </li>
+                            <li>
+                                <img class="social-icon facebook" src="icons/facebook-grey.png" alt="Facebook logo icon">
+                                <img class="social-icon instagram" src="icons/instagram-grey.png" alt="Instagram logo icon">
+                                <img class="social-icon youtube" src="icons/youtube-grey.png" alt="Youtube logo icon">        
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="contact-form" class="contact-block">
+                        <form>
+                                    <label for="contact-name">Name</label>
+                                    <input type="text" id="contact-name" class="contact-field">
+                                    <label for="contact-email">Email</label>
+                                    <input type="text" id="contact-email" class="contact-field">
+                                    <label for="contact-message">Message</label>
+                                    <textarea id="contact-message" class="contact-field"></textarea>
+                                    <button type="submit">SEND TO OUTER SPACE</button>
+                        </form>
+                    </div>
+                </section>
+  
+                <section id="about" class="page-section" hidden>
+                    <video muted loop id="about-vid">
+                        <source src="videos/about-visual-1.mp4" type="video/mp4">
+                    </video>
+                    <a id="about-start">TAKE A TRIP</a>
+                    <div id="about-1" class="about-block" hidden>
+                        <p>
+                            When Lunar Aural was founded, we had one goal in mind. We wanted to bridge the gap between the known and the unknown. We wanted to give man an outlet for his curiosity.
+                        </p>
+                    </div>
+                    <div id="about-2" class="about-block" hidden>
+                        <p>   
+                            As humans, we spend a lot of our time thinking about the past and the future. In doing so, we often ignore the intricacies and the purity of life in this moment. 
+                        </p>
+                    </div>
+                    <div id="about-3" class="about-block" hidden>
+                        <p>
+                            It is only the present that holds the infinite wisdom we crave. In its grasp we realize that the division between what we know and do not know only existed in the confine of our own mind.
+                        </p>
+                    </div>
+                    <div id="about-4" class="about-block" hidden>
+                        <p>
+                            At Lunar Aural, we want to help you lose your mind. We want you to experience the absolute bliss that pulses behind the facade of our understanding. Sounds insane, right? Exactly.   
+                        </p>
+                    </div>
+                    <div id="about-5" class="about-block" hidden>
+                        <p>
+                            It's all about the senses. Your sound and your sight. Your eyes will see and your eyes will hear what your mind cannot comprehend. A sky overflowing with stars. A song played by the mystics. And then..    
+                        </p>
+                    </div>
+                    <div id="about-6" class="about-block" hidden>
+                        <p>
+                            Complete silence. Complete darkness. Nothing but yourself. Welcome to Lunar Aural. You have been waiting your whole life for this moment. May we interest you in a dose of real life?   
+                        </p>
+                    </div>
+                    <div id="about-7" class="about-block" hidden>
+                        <p>
+ 
+                            Your time on the moon will not be an escape from reality. Rather, it will be an adventure into the heart of reality itself, an opportunity to confront the inifinity of infinities.                           
+                        </p>
+                    </div>
+                    <div id="about-8" class="about-block" hidden>
+                        <p>
+                            So why not leave your comfortable little life behind for just a moment. To come here. To hear. To see. To understand. There will be no comfort. Close the doors.       
+                        </p>
+                    </div>
+                </section>
+            </main>
+
+            <div id="scroll-top">
+                <p>back to top<i class="material-icons">arrow_upward</i></p>
+            </div>
+            
+            <footer>
+                <img src="images/logo.jpg" alt="Lunar Aural Resort logo with moon icon and slogan saying out of this world">
+                <div id="footer-connected">
+                    <h2>Keep In The Loop</h2>
+                    <p>Get information about exclusive deals and opportunities delivered straight to your inbox.</p>
+                    <label for="footer-email">Email</label>
+                    <input type="email" id="footer-email">
+                    <button type="submit" id="footer-btn-email">SIGN UP</button>
+                    <div id="social-icons">
+                        <img class="social-icon facebook" src="icons/facebook.png" alt="Facebook logo icon">
+                        <img class="social-icon instagram" src="icons/instagram.png" alt="Instagram logo icon">
+                        <img class="social-icon youtube" src="icons/youtube.png" alt="Youtube logo icon">
+                    </div>
+                </div>
+                <div id="footer-nav">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li>
+                            <a class="nav-link" href="#faq">FAQs<i class="material-icons">arrow_right</i></a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#contact">Contact Us<i class="material-icons">arrow_right</i></a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#about">About The Resort<i class="material-icons">arrow_right</i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="footer-add">
+                    <h2>Address</h2>
+                    <ul>
+                        <li>
+                            <p><b>Lunar Aural Resort</b></p>
+                        </li>
+                        <li>
+                            <p>Crater #2703</p>
+                        </li>
+                        <li>
+                            <p>The Moon</p>
+                        </li>
+                        <li>
+                            <p>The Milky Way Galaxy</p>
+                        </li>
+                        <li>
+                            <p>Our Universe</p>
+                        </li>
+                        <li>
+                            <p>3° 12' 43.2" S, 5° 12' 39.6" W</p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="footer-misc">
+                    <a id="privacy-policy">Privacy Policy</a>
+                    <p>© 2020 Lunar Aural </p>
+                </div>
+            </footer>
+
+            <div class="overlay" style="display: none">
+                <div id="policy-overlay"></div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="js/scrollClass.min.js"></script>
+        <script type="text/javascript" src="js/jquery.fittext.js"></script>
+        <script type="text/javascript" src="js/circletype.min.js"></script> 
+        <script type="text/javascript" src="js/perlin.js"></script>    
+        <script type="text/javascript" src="js/navigation.js"></script>
+        <script type="text/javascript" src="js/home.js"></script>
+        <script type="text/javascript" src="https://threejs.org/build/three.js"></script>
+        <script type="module" src="js/scene.js" async defer></script>  
+        <script type="text/javascript" src="js/activities.js"></script>
+        <script type="text/javascript" src="js/rooms.js"></script>
+        <script type="text/javascript" src="js/faq.js"></script>    
+        <script type="text/javascript" src="js/about.js"></script>        
+        <script type="text/javascript" src="js/footer.js"></script>
+    </body>
+</html>

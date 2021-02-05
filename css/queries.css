@@ -1,0 +1,215 @@
+@media (min-width: 700px) {
+    footer {
+        flex-direction: row;
+        align-items: flex-start;
+        height: 380px;
+        padding-top: 20px;
+    }
+
+    footer input {
+        width: 20vw;
+    }
+
+    footer > div {
+        margin: 0 1vw; 
+        text-align: left;
+    }
+
+    footer div:nth-child(5) {
+        position: absolute;
+        bottom: 0;
+    }
+
+    footer h2 {
+        margin-top: 0;
+    }
+
+    #footer-nav li {
+        padding: 10px 0;
+    }
+
+    #footer-connected {
+        width: 40vw;
+    }
+
+    #footer-nav {
+        width: 20vw;
+    }
+
+    #footer-add {
+        width: 20vw;
+    }
+
+    #policy-overlay > * {
+        font-size: 15px;
+    }
+
+    #nav-main {
+        height: 180px;
+        width: 150px;
+    }
+
+    #nav-main.expand-active {
+        height: 360px;
+    }
+
+    #nav-main img {
+        position: relative;
+        width: 90%;
+        height: auto;
+        padding: 5px 5px 0 5px;
+    }
+
+    #icon-menu {
+        width: 100%;
+        padding: 5px 0;
+        height: 35px;
+    }
+
+    #page-content {
+        margin: 0;
+    }
+
+    .page-section {
+        padding-top: 20px;
+    }
+
+    .page-header {
+        top: 20px;
+    }
+
+    #home {
+        height: 200vh;
+    }
+
+    #home-header-callout {
+        top: 5vh;
+        right: 5vw;
+        width: 10vw;
+    }
+
+    #home-header-image { 
+        top: 15%;
+        width: 60vw;
+    }
+
+    #scene-overlay p {
+        font-size: 4vw;
+        width: 30%;
+    }
+
+    #scene {
+        display: block;
+        height: 100vh;
+    }
+
+    #scene > img {
+        width: 15vw;
+    }
+
+    #scroll-scene {
+        display: block;
+    }
+
+    #scroll-scene > * {
+        font-size: 2vw;
+    }
+
+    .parallax {
+        background-size: contain;
+    }
+
+    #icon-scroll-1 {
+        top: 30vh;
+    }
+
+    .room {
+        width: 30vw;
+        height: 30vw;
+        background-size: 40vw;
+    }
+
+    .room:hover {
+        width: 32vw;
+        height: 32vw;
+    }
+
+    .room > img {
+        height: 20vw;
+        width: 20vw;
+    }
+
+    #rooms {
+        flex-direction: row;
+        padding-top: 60px;
+    }
+
+    #rooms h2 {
+        font-size: 2.8vw;
+        margin-top: 4vw;
+    }
+
+    #room-header {
+        box-sizing: border-box;
+        padding: 0 200px;
+    }
+
+    .overlay {
+        background-size: 40vw;
+    }
+
+    .room-overlay > p:nth-child(1) {
+        margin-top: 8vw;
+    }
+
+    .room-overlay > p {
+        font-size: 1.5vw;
+    }
+
+    #faq > h1 {
+        margin-bottom: 60px;
+    }
+
+    #faq li {
+        margin: 10px 0;
+    }
+
+    #about-start {
+        font-size: 5em;
+    }
+
+    .contact-block {
+        width: 25vw;
+    }
+
+    #contact {
+        flex-direction: row;
+        height: 100vh;
+    }
+
+    #contact h1 {
+        padding: 20px 0;
+    }
+
+    .curve > div {
+        margin-top: 0;
+    }
+
+    .countdown {
+        font-size: 10em;
+    }
+
+    .question {
+        font-size: 1.5em;
+    }
+
+    .answer {
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 1200px) {
+    .curve > div { 
+        margin-top: 0;
+    }
+}
